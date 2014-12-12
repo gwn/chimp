@@ -9,14 +9,15 @@ Works only with JSON for the time being
 ## Usage
 call 'chimp' to enter the REPL
 
-Syntax is like:  
+Syntax is like:
+
 ```<command> [<json>]```
 
-Examples:  
-```lists/list```  
+Examples:
+
+```lists/list```
 ```lists/members {"id": "xyz"}```
 
 ## Installation
-```bash
-sudo cp chimp.sh /usr/local/bin/chimp
-```
+
+```sudo cp chimp.sh /usr/local/bin/chimp```
