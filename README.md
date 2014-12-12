@@ -7,7 +7,7 @@ Basically just a curl wrapper under the hood
 Works only with JSON for the time being
 
 ## Usage
-call 'chimp' to enter the REPL
+call `chimp` to enter the REPL
 
 Syntax is like:  
 `<command> [<json>]`
