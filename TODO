@@ -1,2 +1,15 @@
 readline support
+
 line 32: stderr to /dev/null hack
+
+also print messages to tty
+  "tee /dev/tty | less -r" causes problems, investigate
+
+error handling and error-friendly user messages
+
+caching and flushing cache
+
+allow selecting lists, campaigns, etc. and then working in them by default, like
+mysql "use" command
+
+write installation instructions for requirement libs
