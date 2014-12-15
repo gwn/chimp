@@ -19,9 +19,7 @@ echo "> Entering loop, press Ctrl-C to quit when you're done"
 
 while true
 do
-  echo -n "mailchimp> "
-
-  read input
+  read -p "mailchimp> " input
 
       command=$(cut -d" " -f1 <<< $input)
          data=$(cut -d" " -f2- <<< $input)
