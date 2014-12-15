@@ -17,4 +17,7 @@ Examples:
 `lists/members {"id": "xyz"}`
 
 ## Installation
+Requirements: Python, Python Pygments, Cmatrix
+
+After installing requirements, type:
 `sudo cp chimp.sh /usr/local/bin/chimp`
