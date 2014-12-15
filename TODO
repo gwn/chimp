@@ -5,7 +5,7 @@ line 32: stderr to /dev/null hack
 also print messages to tty
   "tee /dev/tty | less -r" causes problems, investigate
 
-error handling and error-friendly user messages
+error handling and user-friendly error messages
 
 caching and flushing cache
 
